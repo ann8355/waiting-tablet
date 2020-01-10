@@ -1,0 +1,26 @@
+@charset 'UTF-8';
+@import 'common/main';
+@import url('webpos-toolkit/dist/webpos-toolkit.css');
+@import url('swiper/dist/css/swiper.min.css');
+
+html {
+  font-size: 4.3vw;
+  font-family: 'Helvetica', 'Arial', 'LiHei Pro', 'Microsoft YaHei UI', 'sans-serif';
+  user-select: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-tap-highlight-color: transparent;
+  background-color: $background;
+}
+a {
+  text-decoration: none;
+  text-decoration-color: initial;
+}
+* {
+  outline: 0;
+}
+.btn {
+  padding: 1rem;
+  color: $white;
+  border-radius: 0.8vh;
+  line-height: 0;
+}

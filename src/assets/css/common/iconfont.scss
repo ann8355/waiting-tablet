@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'YAKINIKU';
+  src:  url('~@/assets/fonts/YAKINIKU/YAKINIKU.eot?84ryol');
+  src:  url('~@/assets/fonts/YAKINIKU/YAKINIKU.eot?84ryol#iefix') format('embedded-opentype'),
+    url('~@/assets/fonts/YAKINIKU/YAKINIKU.woff2?84ryol') format('woff2'),
+    url('~@/assets/fonts/YAKINIKU/YAKINIKU.ttf?84ryol') format('truetype'),
+    url('~@/assets/fonts/YAKINIKU/YAKINIKU.woff?84ryol') format('woff'),
+    url('~@/assets/fonts/YAKINIKU/YAKINIKU.svg?84ryol#YAKINIKU') format('svg');
+}
+
+i.yif {
+  font-family: 'YAKINIKU';
+  display: inline-block;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* code */
+.yif-remove-o:before {
+  content: "\e15d";
+}
+.yif-event-note:before {
+  content: "\e616";
+}
+.yif-spoon-knife:before {
+  content: "\e904";
+}
+.yif-time:before {
+  content: "\e905";
+}
+.yif-man:before {
+  content: "\e907";
+}
+.yif-suitcase:before {
+  content: "\e908";
+}
+.yif-power-off:before {
+  content: "\e90b";
+}
+.yif-cog:before {
+  content: "\f013";
+}
+.yif-inbox:before {
+  content: "\f01c";
+}
+.yif-sync:before {
+  content: "\f021";
+}
+.yif-chevron-left:before {
+  content: "\f053";
+}
+.yif-chevron-right:before {
+  content: "\f054";
+}
+.yif-clipboard:before {
+  content: "\f0ea";
+}
+.yif-exchange:before {
+  content: "\f0ec";
+}
+.yif-dollar:before {
+  content: "\f155";
+}
+.yif-female:before {
+  content: "\f182";
+}
+.yif-male:before {
+  content: "\f183";
+}
+.yif-building:before {
+  content: "\f1ad";
+}
+.yif-seat:before {
+  content: "\e903";
+}
